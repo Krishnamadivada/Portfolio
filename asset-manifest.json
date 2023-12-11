@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f8613191.css",
+    "main.js": "/Portfolio/static/js/main.61c01d51.js",
+    "static/media/Krishna_Vamsi_Madivada.png": "/Portfolio/static/media/Krishna_Vamsi_Madivada.5fc932addc27487ca258.png",
+    "static/media/abs_bg_dark.jpg": "/Portfolio/static/media/abs_bg_dark.16403a04ec61257d6fe1.jpg",
+    "static/media/about_image.jpg": "/Portfolio/static/media/about_image.26a90da89251f0518e19.jpg",
+    "static/media/Krishna_vamsi_M.pdf": "/Portfolio/static/media/Krishna_vamsi_M.47dda05b182601ce5b79.pdf",
+    "static/media/logo.png": "/Portfolio/static/media/logo.6d6bc267a198fb29e9b3.png",
+    "index.html": "/Portfolio/index.html",
+    "main.f8613191.css.map": "/Portfolio/static/css/main.f8613191.css.map",
+    "main.61c01d51.js.map": "/Portfolio/static/js/main.61c01d51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8613191.css",
+    "static/js/main.61c01d51.js"
+  ]
+}
