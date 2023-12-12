@@ -75,24 +75,6 @@
     }
 }
 
-#intro::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: url('../../assets/images/react_logo.png') center no-repeat;
-    background-size: 3%;
-    animation: spin 5s linear infinite;
-  }
-  
-  @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-
   @media screen and (max-width: 1140px) {
     .introImage {
         width: 300px;
