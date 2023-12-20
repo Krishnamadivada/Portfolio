@@ -127,21 +127,6 @@
   }
 }
 
-@media screen and (max-width: 1140px) {
-  .aboutContent {
-    width: 28rem;
-  }
-  .aboutImage {
-    height: 18rem;
-    width: 15rem;
-  }
-
-  .imageFrame {
-    height: 18rem;
-    width: 15rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .aboutContent {
     width: 20rem;

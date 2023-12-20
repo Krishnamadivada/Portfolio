@@ -1,0 +1,186 @@
+#project {
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 4rem 6rem;  
+}
+
+.projectTextBox {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.projectText {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    width: 31rem;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@keyframes lineGrow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+.projectPara {
+    font-size: medium;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.projectbtn {
+    width: 15rem;
+    background-color: #B469FF;
+    margin-top: 1rem;
+    color: black;
+}
+
+.projectbtn:hover {
+    background-color: #e3ccf5 !important; 
+    color: blue !important;
+}
+
+.projectImageBox {
+    display: flex;
+    position: relative;
+}
+
+.carousel {
+    width: 27rem; 
+}
+
+.projectImage {
+    object-fit: fill;
+    height: 16rem;
+    width: 27rem;
+    border-radius: 10px;
+}
+
+.projectImageFrame {
+    position: absolute;
+    right: 4rem;
+    top: 3rem;
+    border: 10px solid #B469FF;
+    height: 16rem;
+    width: 27rem;
+    z-index: -1;
+    animation: floatFrame 5s ease-in-out infinite 1s;
+}
+
+@keyframes floatFrame {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .projectContent {
+    width: 27rem;
+  }
+  .projectImage {
+    height: 14rem;
+    width: 22rem;
+  }
+
+  .projectImageFrame {
+    height: 14rem;
+    width: 22rem;
+  }
+  .carousel {
+    width: 22rem; 
+}
+  .projectPara {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .projectContent {
+    width: 24rem;
+  }
+  .projectImage {
+    height: 14rem;
+    width: 22rem;
+  }
+
+  .projectImageFrame {
+    height: 14rem;
+    width: 22rem;
+  }
+  .carousel {
+    width: 22rem; 
+}
+}
+
+@media screen and (max-width: 768px) {
+  .projectContent {
+    width: 18rem;
+  }
+  .projectImage {
+    height: 12rem;
+    width: 18rem;
+  }
+
+  .projectImageFrame {
+    height: 12rem;
+    width: 18rem;
+    right: 3rem;
+  }
+  .carousel {
+    width: 18rem; 
+}
+  .projectPara {
+    font-size: 0.7rem;
+  }
+  .projectbtn {
+    width: 10rem;
+    font-size: 0.7rem !important;
+  }
+  #project {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .projectContainer {
+    flex-direction: column-reverse;
+  }
+  .projectContent {
+    width: 17rem;
+    margin-top: 5rem;
+  }
+  .projectImageFrame {
+    right: 1.5rem;
+  }
+}
